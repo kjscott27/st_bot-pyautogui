@@ -31,7 +31,7 @@ def openUIElement(key, seconds=1.00):
 def reportMousePosition(seconds=10):
 	for i in range(0, seconds):
 		print(pyautogui.position())
-		time.sleep(1)
+		sleep(1)
 
 if __name__ == "__main__":
 	main()
